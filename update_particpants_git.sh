@@ -5,22 +5,30 @@ cd Documents/carpp/behavior_analysis_scripts/
 cd CARPP_DT/
 git add DT_Individual_Script.R
 git commit -m "Adding Participant"
+git add np_removal_DT.R
+git commit -m "Updating Staffing"
 git push origin master
 
 #eDT
 cd ../CARPP_eDT/
 git add eDT_Individual_Script.R
 git commit -m "Adding Participant"
+git add np_removal_eDT.R
+git commit -m "Updating Staffing"
 git push origin master
 
 #eGNG
 cd ../CARPP_eGNG
 git add eGNG_Individual_Script_post7-23.R
 git commit -m "Adding Participant"
+git add np_removal_eGNG.R
+git commit -m "Updating Staffing"
 git push origin master
 
 #GNG
 cd ../CARPP_GNG/
 git add GNG_Individual_Script_Post7-23.R 
 git commit -m "Adding Participant"
+git add np_removal_GNG.R
+git commit -m "Updating Staffing"
 git push origin master
